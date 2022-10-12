@@ -1,0 +1,87 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@layer components {
+  .btn {
+    @apply  p-2 rounded-lg text-main w-1/5 m-2 self-end transition-colors
+  }
+  .btn-primary {
+    @apply bg-primary btn
+  }
+  .btn-bg {
+    @apply bg-bg btn text-text 
+  }
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+* {
+  --animate-duration: 300ms;
+  /* --animate-delay: 0.9s; */
+}
+.grid-rows-7{
+  grid-template-rows: repeat(7, minmax(0, 1fr));
+}
+.grid-rows-8{
+  grid-template-rows: repeat(8, minmax(0, 1fr));
+}
+.grid-rows-9{
+  grid-template-rows: repeat(9, minmax(0, 1fr));
+}
+
+.grid-rows-10{
+  grid-template-rows: repeat(10, minmax(0, 1fr));
+}
+.grid-rows-11{
+  grid-template-rows: repeat(11, minmax(0, 1fr));
+}
+.grid-rows-12{
+  grid-template-rows: repeat(12, minmax(0, 1fr));
+}
+.grid-rows-13{
+  grid-template-rows: repeat(13, minmax(0, 1fr));
+}
+.grid-rows-14{
+  grid-template-rows: repeat(14, minmax(0, 1fr));
+}
+.grid-rows-24{
+  grid-template-rows: repeat(24, minmax(0, 1fr));
+}
+
+.row-span-7 {
+  grid-row: span 7 / span 7;
+}
+.row-span-8 {
+  grid-row: span 8 / span 8;
+}
+.row-span-9 {
+  grid-row: span 9 / span 9;
+}
+.row-span-10 {
+  grid-row: span 10 / span 10;
+}
+.row-span-11 {
+  grid-row: span 11 / span 11;
+}
+.row-span-12 {
+  grid-row: span 12 / span 12;
+}
+.row-span-13 {
+  grid-row: span 13 / span 13;
+}
+.row-span-23 {
+  grid-row: span 23 / span 23;
+}
